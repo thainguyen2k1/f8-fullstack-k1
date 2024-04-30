@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Hoc về Tbale -->
+    <table width="100%" border="2" cellspacing="0" cellpadding="10px">
+      <tr>
+        <th colspan="2">Thông Tin sản phẩm</th>
+        <th rowspan="2">SL</th>
+        <th rowspan="2">Đơn giá <br />(đồng)</th>
+        <th rowspan="2">Thành Tiền <br />(đồng)</th>
+      </tr>
+      <tr>
+        <td><b>Hình Ảnh</b></td>
+        <td><b>Tên sản phẩm</b></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          accusantium vel rem
+        </td>
+        <td>1</td>
+        <td>2.800.000</td>
+        <td>2.800.000</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Cộng</b></td>
+        <td>1</td>
+        <td></td>
+        <td><b>2.800.000</b></td>
+      </tr>
+      <tr>
+        <td colspan="4"><b>TỔNG CỘNG</b></td>
+        <td><b>2.800.000</b></td>
+      </tr>
+      <tr>
+        <td colspan="4">TIỀN HÀNG SAU GIẢM GIÁ</td>
+        <td>2.800.000</td>
+      </tr>
+      <tr>
+        <td colspan="4"><b>SỐ TIỀN CẦN THANH TOÁN</b></td>
+        <td><b>2.800.000</b></td>
+      </tr>
+      <tr>
+        <td colspan="4">Phí Ship be</td>
+        <td>Miễn Phí Ship</td>
+      </tr>
+    </table>
+    <!-- Học về biểu mẫu -->
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php">
+      <!-- <input type="text" name="Fullname" placeholder="Họ và tên ..." />
+      <div><input type="text" name="Email" placeholder="Email ..." /></div>
+      <div>
+        <input type="text" name="SDt" placeholder="Số điện thoại ..." />
+      </div>
+      <button>Gửi</button> -->
+      <div>
+        <label for="lbl-name">Họ và tên</label>
+        <!--khi click vào chữ sẽ có dấu nháy ở Name vì có id -->
+        <input
+          type="text"
+          name="Name"
+          placeholder="Name"
+          id="lbl-name"
+          required
+          maxlength="10"
+        />
+      </div>
+      <div>
+        <label for="lbl-email">Email</label>
+        <!--khi click vào chữ sẽ có dấu nháy ở Name vì có id -->
+        <input
+          type="email"
+          name="email"
+          placeholder="email"
+          id="lbl-email"
+          required
+        />
+      </div>
+      <div>
+        <label for="lbl-password">Mật khẩu</label>
+        <!--khi click vào chữ sẽ có dấu nháy ở Name vì có id -->
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+          id="lbl-password"
+          required
+        />
+      </div>
+      <div>
+        <label for="lbl-tuoi">Tuổi</label>
+        <!--khi click vào chữ sẽ có dấu nháy ở Name vì có id -->
+        <input
+          type="number"
+          name="number"
+          placeholder="Tuổi"
+          id="lbl-tuoi"
+          min="18"
+          max="60"
+          step="0.1"
+          required
+        />
+      </div>
+      <div>
+        <label> Giới tính</label>
+        <label><input type="radio" name="gender" value="0" />Không biết</label>
+        <label><input type="radio" name="gender" value="1" checked />Nam</label>
+        <label><input type="radio" name="gender" value="2" />Nữ</label>
+      </div>
+      <div>
+        <label for="lbl-price">Giá</label>
+        <input type="range" name="price" id="lbl-price" value="0" />
+      </div>
+      <div>
+        <label for="lbl-message">
+          <textarea
+            name="message"
+            id="lbl-message"
+            cols="30"
+            rows="10"
+            placeholder="Noi dung tin nhan"
+          >
+            Đưa nội dung vào đây   
+            </textarea
+          >
+        </label>
+      </div>
+      <div>
+        <label for="provinces">tỉnh /thành phố</label>
+        <select name="provinces" id="provinces">
+          <option value="0">Tỉnh /thành phố</option>
+          <option value="0">hà nội</option>
+          <option value="0">hồ chí minh</option>
+          <option value="0">đà nẵng</option>
+        </select>
+      </div>
+      <button type="submit">Gửi</button>
+      <button type="reset">Nhập lại</button>
+    </form>
+  </body>
+</html>

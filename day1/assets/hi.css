@@ -1,0 +1,93 @@
+.clear{
+    clear: both;
+}
+
+.head-contact{
+    padding-left: 24px;
+}
+
+.contact-infor{
+    display: inline-block;
+    min-height: 200px;
+    width: 30%;
+}
+.s-contact-infor{
+    padding: 0 24px;
+}
+.s-contact-infor ul{
+    padding-left: 8px;
+}
+.s-contact-infor p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.s-contact-infor li{
+    opacity: 0.6;
+    margin-top: 24px;
+}
+.contact-input{
+    display: inline-block;
+    min-height: 200px;
+    width: 70%;
+    float: right;
+    /* margin-left: -4px; */
+}
+.contact-infor ul {
+    list-style: none;
+}
+.contact-input input {
+    display: block;
+    padding: 8px 0px 8px 4px;
+    width: 100%;
+    margin-top: 12px ;
+}
+.s-contact-input{
+    padding: 0 32px;
+}
+.s-contact-input p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-input textarea {
+    display: block;
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px 0px 8px 6px;
+}
+.contact-input button{
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+.s-feedback {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.s-feedback > p{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.clients{
+    float: right;
+    width: 30%;
+    padding: 12px 12px ;
+}
+.clients-img{
+    width: 30% ;
+    height: 100%;
+    display: inline-block;
+
+}
+.clients-img img{
+    width: 100%;
+    float: right;
+}
+.clients-content{
+    width: 70% ;
+    height: 100%;
+    float: right;
+}

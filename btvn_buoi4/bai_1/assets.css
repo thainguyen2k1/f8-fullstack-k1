@@ -1,0 +1,33 @@
+.s-form {
+  border-radius: 20px;
+  width: 100%;
+  min-height: 200px;
+  padding: 12px;
+  background-color: rgb(38, 69, 69);
+}
+h2,
+p {
+  color: #fff;
+}
+h2 span {
+  color: goldenrod;
+}
+input,
+button {
+  padding: 4px;
+  width: 200px;
+}
+button {
+  text-align: center;
+  background-color: yellow;
+}
+.s-form:hover input::placeholder {
+  color: goldenrod;
+}
+.s-form:hover input {
+  background-color: #ddd;
+}
+.s-form:hover button {
+  background-color: goldenrod;
+  color: #fff;
+}
