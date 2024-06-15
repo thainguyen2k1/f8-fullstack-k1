@@ -1,0 +1,48 @@
+@import "../partials/mixins";
+#news{
+    .heading-news{
+        text-align: center;
+        h2{
+            font-size: 1.5em;
+            font-weight: 800;
+        }
+        p{
+            margin-inline: auto;
+            width: 60%;
+            font-size: 0.8em;
+        }
+    }
+    .content-news{
+        margin-top: 20px;
+        .box-news{
+            img{
+                width: 100%;
+            }
+            a{
+                color: #46B20F;
+                font-size: 0.8em;
+            }
+            span{
+                font-size: 0.8em;
+            }
+            h2{
+                font-weight: 800;
+
+            }
+            p{
+                font-size: 0.8em;
+            }
+
+        }
+    }
+    .read-more{
+        display: block;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 1px solid #46B20F;
+        &:hover{
+            color: red;
+            background-color: #46B20F;
+        }
+    }
+}

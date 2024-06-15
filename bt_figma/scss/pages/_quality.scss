@@ -1,0 +1,17 @@
+@import "../partials/mixins";
+#quality{
+    align-items: start;
+    h2{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    div{
+        align-items: start;
+        img{
+            width: 50px;
+        }
+    }
+}

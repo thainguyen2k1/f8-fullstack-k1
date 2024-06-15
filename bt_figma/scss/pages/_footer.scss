@@ -1,0 +1,40 @@
+footer{
+    background-color: #F2FFEC;
+    img{
+        width: 40%;
+    }
+    h2{
+        margin-bottom: 10px;
+        color: #46B20F;
+        font-weight: 800;
+    }
+    p{
+        margin-block: 8px;
+        span{
+            font-weight: 800;
+        }
+        i{
+            color: #FF6916;
+        }
+    }
+    .hr{
+        width: 100%;
+        height: 2px;
+        background-color: #ccc;
+    }
+    .notification{
+        align-items: center;
+        width: 100%;
+        img{
+            width: 15%;
+        }
+        i{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #DCFFCA;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+}
